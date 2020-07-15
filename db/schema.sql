@@ -11,7 +11,8 @@ Create TABLE tacos
     AUTO_INCREMENT, 
     burger_name VARCHAR
     (255) NOT NULL, 
-    devoured BOOL DEFAULT false, 
+    devoured BOOLEAN DEFAULT false, 
     PRIMARY KEY
     (id)
 );
+
