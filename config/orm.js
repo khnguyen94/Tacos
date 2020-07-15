@@ -110,4 +110,5 @@ const orm = {
   },
 };
 
+// Export orm
 module.exports = orm;
