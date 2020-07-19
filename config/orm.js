@@ -25,8 +25,8 @@ const objToSQL = (obj) => {
   // For loop that takes in obj, for each key in that object,
   // Convert the key into the format: key + "=" + ob[key]
   // and push to the arr
-  for (var key in ob) {
-    arr.push(key + "=" + ob[key]);
+  for (var key in obj) {
+    arr.push(key + "=" + obj[key]);
   }
 
   // Return the arr as a string
